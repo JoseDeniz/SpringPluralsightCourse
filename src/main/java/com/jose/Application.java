@@ -2,11 +2,11 @@ package com.jose;
 
 import com.jose.service.CustomerServiceImpl;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Application {
     public static void main(String[] args) {
-        ApplicationContext appContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ApplicationContext appContext = new AnnotationConfigApplicationContext(AppConfig.class);
 
         CustomerServiceImpl customerService = appContext.getBean("customerService", CustomerServiceImpl.class);
 
