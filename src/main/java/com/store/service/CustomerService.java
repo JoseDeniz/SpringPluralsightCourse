@@ -1,6 +1,6 @@
-package com.jose.service;
+package com.store.service;
 
-import com.jose.model.Customer;
+import com.store.model.Customer;
 
 import java.util.List;
 

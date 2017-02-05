@@ -1,6 +1,6 @@
-package com.jose.repository;
+package com.store.repository;
 
-import com.jose.model.Customer;
+import com.store.model.Customer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 

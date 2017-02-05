@@ -1,4 +1,4 @@
-package com.jose.model;
+package com.store.model;
 
 public class Customer {
 

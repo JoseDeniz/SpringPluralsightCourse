@@ -1,7 +1,7 @@
-package com.jose.service;
+package com.store.service;
 
-import com.jose.model.Customer;
-import com.jose.repository.CustomerRepository;
+import com.store.model.Customer;
+import com.store.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;

@@ -1,6 +1,6 @@
-package com.jose;
+package com.store;
 
-import com.jose.service.CustomerServiceImpl;
+import com.store.service.CustomerServiceImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
