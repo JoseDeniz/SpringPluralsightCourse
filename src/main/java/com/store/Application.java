@@ -1,6 +1,7 @@
 package com.store;
 
 import com.store.service.CustomerServiceImpl;
+import org.springframework.boot.SpringApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -11,5 +12,7 @@ public class Application {
         CustomerServiceImpl customerService = appContext.getBean("customerService", CustomerServiceImpl.class);
 
         System.out.println(customerService.findAll());
+
+        SpringApplication.run(HelloController.class, args);
     }
 }
